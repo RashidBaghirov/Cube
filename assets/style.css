@@ -4,11 +4,18 @@
     box-sizing: border-box;
 }
 
+body{
+  background-image: url(https://www.streetmusclemag.com/image/2013/12/Pure-Punishment-Dodge-Charger.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
 .container{
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
 }
   
 .container .wrapper{
@@ -35,7 +42,9 @@ perspective-origin: center;
       justify-content: center;
       align-items: center;
       transform: translateZ(-200px);
-      background: rgba(29, 173, 235, 0.5);
+      background-image: url(https://www.motortrend.com/uploads/sites/5/2021/02/speedkore-charger-hellraiser-05.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
     }
 
     .cube .front {
@@ -49,7 +58,9 @@ perspective-origin: center;
       align-items: center;
       transform: rotateX(0);
       transform-origin: bottom;
-      background: rgba(29, 173, 235, 0.5);
+      background-image: url(https://www.tuningblog.eu/wp-content/uploads/2021/02/SpeedKore-Hellraiser-1970-Dodge-Charger-Restomod-Tuning-41.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
     }
   
   .cube .bottom {
@@ -63,21 +74,22 @@ perspective-origin: center;
     align-items: center;
     transform: rotateX(90deg);
     transform-origin: bottom;
-    background: rgba(29, 173, 235, 0.5);
+    background-image: url(https://imgr1.auto-motor-und-sport.de/02-2021-Speedkore-1970-Dodge-Charger-Hellraiser-169FullWidth-b9b59d9f-1763291.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
   }
 
   .cube .top {
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
     display: flex;
-    position: absolute;
     justify-content: center;
     align-items: center;
     transform: rotateX(270deg) ;
     transform-origin: top;
-    background: rgba(29, 173, 235, 0.5);
+    background-image: url(https://c.ndtvimg.com/2022-01/7vq1kvt8_car_625x300_27_January_22.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   .cube .right {
@@ -91,7 +103,9 @@ perspective-origin: center;
     align-items: center;
     transform: translateZ(-203px) rotateY(90deg);
     transform-origin: right;
-    background: rgba(29, 173, 235, 0.5);
+    background-image: url(https://www.streetmusclemag.com/image/2013/12/Pure-Punishment-Dodge-Charger.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
 
@@ -105,10 +119,17 @@ perspective-origin: center;
     justify-content: center;
     align-items: center;
     transform:translateZ(0px) rotateY(90deg) ;
-    background: rgba(29, 173, 235, 0.5);
+    background-image: url(https://c.ndtvimg.com/2022-01/fgoab1d8_car_625x300_27_January_22.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     transform-origin: left;
   }
 
   .cube:hover{
     transform: rotateX(360deg) rotateY(180deg) rotateZ(360deg);
 }
+
+
+/* .cube:hover{
+    transform: rotateX(45deg);
+} */
